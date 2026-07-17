@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Membership Form</title>
+</head>
+<body>
+  <h2>Library Membership Form</h2>  
+    <form action = "#" method = "post">
+        <fieldset> 
+            <br/>
+           <legend>Personal Information</legend>
+              <label for = "fname">Full Name:</label>
+              <input type = "text"  name = "fname" id = "fname" required><br><br>
+
+              <label for = "memberid">Membership ID:</label>
+              <input type = "text"  name = "memberid" id = "memberid" required><br><br>
+
+                <label for = "email">Email:</label>
+                <input type = "email"  name = "email" id = "email" required><br><br>
+
+                <label for = "phone">Phone:</label>
+                <input type = "tel"  name = "phone" id = "phone" required><br><br>
+
+                <label for = "dob">Date of Birth:</label>
+                <input type = "date"  name = "dob" id = "dob" required><br><br>
+
+                Gender:
+                <input type = "radio" name = "gender" id = "male" value = "male" required>
+                <label for = "male">Male</label>
+                <input type = "radio" name = "gender" id = "female" value = "female" required>
+                <label for = "female">Female</label>
+                <input type = "radio" name = "gender" id = "others" value = "others" required>
+                <label for = "others">Others</label><br><br>
+
+        </fieldset>
+
+        <fieldset> 
+            <br/> 
+            <legend>Membership Information</legend>
+                    <label for = "Mtype">Membership Type:</label>
+                    <select name = "Mtype" id = "Mtype" required>
+                        <option value = "">Select Membership Type</option>
+                        <option value = "Student">Student</option>
+                        <option value = "Faculty">Faculty</option>
+                        <option value = "Researcher">Researcher</option>
+                        <option value = "General Member">General Member</option>
+                    </select><br><br>
+
+                    <label for = "preferedsection">Prefered Library Section:</label>
+                    <select name = "preferedsection" id = "preferedsection" required>
+                        <option value = "">Select Prefered Section</option>
+                        <option value = " Science & Technology "> Science & Technology </option>
+                        <option value = " Literature "> Literature </option>
+                        <option value = "Business Studies ">Business Studies </option>
+                        <option value = "History">History</option>
+                        <option value = " Arts & Culture"> Arts & Culture</option>
+                    </select><br><br>
+              
+        </fieldset>
+        <fieldset>
+            <legend>Reading Preferences</legend>
+           Select Favorite Book Categories:
+            <br>
+            <input type = "checkbox" name = "ReadingPreferences" id = " Fiction" value = " Fiction">
+            <label for = " Fiction">Fiction</label><br>
+            <input type = "checkbox" name = "ReadingPreferences" id = " Non-Fiction" value = " Non-Fiction">
+            <label for = " Non-Fiction">Non-Fiction</label><br>
+            <input type = "checkbox" name = "ReadingPreferences" id = "  Science" value = "  Science">
+            <label for = "  Science">Science</label><br>
+            <input type = "checkbox" name = "ReadingPreferences" id = "   Technology" value = "   Technology">
+            <label for = "   Technology">Technology</label><br>
+            <input type = "checkbox" name = "ReadingPreferences" id = "    Biography " value = "    Biography ">
+            <label for = "    Biography ">Biography</label><br>
+            <input type = "checkbox" name = "ReadingPreferences" id = "   History" value = "   History">
+            <label for = "   History">History</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Library Services</legend>
+           Select Services You Want to Use:
+            <br>
+            <input type = "checkbox" name = "services" id = " Book Borrowing" value = " Book Borrowing">
+            <label for = " Book Borrowing">Book Borrowing</label><br>
+            <input type = "checkbox" name = "services" id = "Digital Library Access" value = "Digital Library Access">
+            <label for = "Digital Library Access">Digital Library Access</label><br>
+            <input type = "checkbox" name = "services" id = "  Reading Room " value = "  Reading Room ">
+            <label for = "  Reading Room ">Reading Room</label><br>
+            <input type = "checkbox" name = "services" id = "   Research Assistance " value = "   Research Assistance ">
+            <label for = "   Research Assistance ">Research Assistance</label>
+    
+        </fieldset>
+
+        <fieldset> 
+            <br/>
+           <legend>Additional Information </legend>
+              <label for = "curadd">Current Address:</label>
+              <input type = "text"  name = "curadd" id = "curadd" required><br><br>
+
+                <label for = "emcontact">Emergency Contact:</label>
+                <input type = "tel"  name = "emcontact" id = "emcontact" required><br><br>
+
+                <label for = "reason">Reason for Joining the Library :</label>
+               <input type = "text"  name = "reason" id = "reason" required><br><br>
+
+               <label for = "suggestion">Suggestions for Library Improvement:</label>
+               <input type = "text"  name = "suggestion" id = "suggestion" required><br><br>
+
+
+        </fieldset>
+
+        <br>
+        <input type = "submit" value = "Submit">
+        <input type = "reset" value = "Reset">
+        
+    
+    </form>  
+</body>
+</html>
